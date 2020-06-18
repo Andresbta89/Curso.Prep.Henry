@@ -1,6 +1,19 @@
+body{
+	background-image:url("https://img.webme.com/pic/w/webcp/bge01.jpg");
+	background-repeat: no-repeat;
+	color: black;
+	align-items: center;
+  	justify-content: center;
+}
+div{
+  	background-color: transparent;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
 h1
 {
-	color:steelblue;
+	color:azure;
 }
 img
 {
@@ -8,15 +21,19 @@ img
 }
 #thirdDiv
 {
-	height: 600px ;
-	width: 500px;
+	max-width: 600px;
+  	height: 500px ;
+	margin: 0 auto; 
 	background: skyblue;
 	padding: 50px;
 	border: 1px;
-	border-style: dashed;
+	border-style: solid;
+
 }
 #spanId
 {
+	color: #ffffff;
+	font-family:sans-serif;
 	font-size: 18px;
 	margin: 50px;
 }
